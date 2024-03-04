@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
-        await query.message.edit_text(
+        await query.message.edit_text()
             text = f"<b>\n○  ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Dumb_luffy'>LUFFY</a>\n○  ʟᴀɴɢᴜᴀɢᴇ : <code>Eng Sub & Dub</code>\n○  Main Channel : <a href=https://t.me/XAnime_Universe>XANIME UNIVERSE</a>\n○  Ongoing Channel : <a href=https://t.me/XAnime_Ongoing> XANIME ONGOING</a>\n</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
