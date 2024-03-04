@@ -53,9 +53,9 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "👋 Hello {first}!\nTo access these files you have to join our channel first.\nPlease subscribe to our channels through the buttons below and then tap on try again to get your files.\nThank You ❤️")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>By @XANIME_UNIVERSE</a>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "")
 
-#set True if you want to prevent users from forwarding files from bot
+#set True if you wan to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
