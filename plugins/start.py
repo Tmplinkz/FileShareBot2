@@ -103,10 +103,10 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('MAIN CHANNEL', url=f"https://t.me/XAnime_Universe"), 
-                    InlineKeyboardButton('ONGOING CHANNEL', url=f"https://t.me/XAnime_Ongoing") 
+                    InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/XAnime_Universe"), 
+                    InlineKeyboardButton('ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/XAnime_Ongoing") 
                 ],[
-                    InlineKeyboardButton('OUR CHAT GROUP  ', url=f"https://t.me/XAnime_Chat_Group")
+                    InlineKeyboardButton('ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ', url=f"https://t.me/XAnime_Chat_Group")
                 ],[
                     InlineKeyboardButton("ᴍᴏʀᴇ ɪɴғᴏ ", callback_data = "about"),
                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
